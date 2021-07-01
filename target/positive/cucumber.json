@@ -1,0 +1,784 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-06-29T07:44:36.463Z",
+        "before": [
+          {
+            "result": {
+              "error_message": "org.junit.AssumptionViolatedException: got: \u003cfalse\u003e, expected: is \u003ctrue\u003e\r\n\tat org.junit.Assume.assumeThat(Assume.java:106)\r\n\tat org.junit.Assume.assumeTrue(Assume.java:50)\r\n\tat applicationHooks.ApplicationHooks.skip_scenario(ApplicationHooks.java:28)\r\n",
+              "duration": 483708300,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "applicationHooks.ApplicationHooks.skip_scenario(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 1995000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "applicationHooks.ApplicationHooks.getProperty()"
+            }
+          },
+          {
+            "result": {
+              "duration": 2066363300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "applicationHooks.ApplicationHooks.lunchBrowser()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "search with exact match keywords",
+        "description": "",
+        "id": "search-with-valid-keyword;search-with-exact-match-keywords;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 3991000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "applicationHooks.ApplicationHooks.teardown(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 696282200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "applicationHooks.ApplicationHooks.quitBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6982300,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "user on store manager page \"https://store-manager-web-qa.azurewebsites.net/\" link",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://store-manager-web-qa.azurewebsites.net/\"",
+                  "offset": 27
+                }
+              ],
+              "location": "stepDefination.SearchBoxSteps.user_on_store_manager_page_link(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 997400,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "applicationHooks.ApplicationHooks.addScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 997400,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "user enter the credentail for login by Username as \"amahadevaswamy@qwinix.io\" and Password as \"Parinith@0604\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"amahadevaswamy@qwinix.io\"",
+                  "offset": 51
+                },
+                {
+                  "val": "\"Parinith@0604\"",
+                  "offset": 94
+                }
+              ],
+              "location": "stepDefination.SearchBoxSteps.user_enter_the_credentail_for_login_by_username_as_and_password_as(java.lang.String,java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "applicationHooks.ApplicationHooks.addScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "user selected \"Walgreen\" option",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Walgreen\"",
+                  "offset": 14
+                }
+              ],
+              "location": "stepDefination.SearchBoxSteps.user_selected_option(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "applicationHooks.ApplicationHooks.addScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 997200,
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "user click on search box and enter \"141\" keyword",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"141\"",
+                  "offset": 35
+                }
+              ],
+              "location": "stepDefination.SearchBoxSteps.user_click_on_search_box_and_enter_keyword(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 997400,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "applicationHooks.ApplicationHooks.addScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 997500,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "validate the outcomes is as per search result",
+            "match": {
+              "location": "stepDefination.SearchBoxSteps.validate_the_outcomes_is_as_per_search_result()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 998700,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "applicationHooks.ApplicationHooks.addScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@searchByValidKeyword"
+          },
+          {
+            "name": "@skip"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-29T07:44:36.466Z",
+        "before": [
+          {
+            "result": {
+              "error_message": "org.junit.AssumptionViolatedException: got: \u003cfalse\u003e, expected: is \u003ctrue\u003e\r\n\tat org.junit.Assume.assumeThat(Assume.java:106)\r\n\tat org.junit.Assume.assumeTrue(Assume.java:50)\r\n\tat applicationHooks.ApplicationHooks.skip_scenario(ApplicationHooks.java:28)\r\n",
+              "duration": 482710700,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "applicationHooks.ApplicationHooks.skip_scenario(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 1995000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "applicationHooks.ApplicationHooks.getProperty()"
+            }
+          },
+          {
+            "result": {
+              "duration": 2090302400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "applicationHooks.ApplicationHooks.lunchBrowser()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "search with exact match keywords",
+        "description": "",
+        "id": "search-with-valid-keyword;search-with-exact-match-keywords;;3",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "applicationHooks.ApplicationHooks.teardown(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 686309100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "applicationHooks.ApplicationHooks.quitBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 996700,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "user on store manager page \"https://store-manager-web-qa.azurewebsites.net/\" link",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://store-manager-web-qa.azurewebsites.net/\"",
+                  "offset": 27
+                }
+              ],
+              "location": "stepDefination.SearchBoxSteps.user_on_store_manager_page_link(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "applicationHooks.ApplicationHooks.addScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 997200,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "user enter the credentail for login by Username as \"amahadevaswamy@qwinix.io\" and Password as \"Parinith@0604\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"amahadevaswamy@qwinix.io\"",
+                  "offset": 51
+                },
+                {
+                  "val": "\"Parinith@0604\"",
+                  "offset": 94
+                }
+              ],
+              "location": "stepDefination.SearchBoxSteps.user_enter_the_credentail_for_login_by_username_as_and_password_as(java.lang.String,java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 997300,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "applicationHooks.ApplicationHooks.addScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 997800,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "user selected \"Walmart\" option",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Walmart\"",
+                  "offset": 14
+                }
+              ],
+              "location": "stepDefination.SearchBoxSteps.user_selected_option(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "applicationHooks.ApplicationHooks.addScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "user click on search box and enter \"1410\" keyword",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1410\"",
+                  "offset": 35
+                }
+              ],
+              "location": "stepDefination.SearchBoxSteps.user_click_on_search_box_and_enter_keyword(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "applicationHooks.ApplicationHooks.addScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 997700,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "validate the outcomes is as per search result",
+            "match": {
+              "location": "stepDefination.SearchBoxSteps.validate_the_outcomes_is_as_per_search_result()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "applicationHooks.ApplicationHooks.addScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@searchByValidKeyword"
+          },
+          {
+            "name": "@skip"
+          }
+        ]
+      }
+    ],
+    "name": "search with valid keyword",
+    "description": "  I want to test search functionallity with valid keyword",
+    "id": "search-with-valid-keyword",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/com/features/Searchpage.feature",
+    "tags": [
+      {
+        "name": "@searchByValidKeyword",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3982324400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user on store manager page \"https://store-manager-web-qa.azurewebsites.net/\" link",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://store-manager-web-qa.azurewebsites.net/\"",
+                  "offset": 27
+                }
+              ],
+              "location": "stepDefination.SearchBoxSteps.user_on_store_manager_page_link(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d91.0.4472.124)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-VFTDAVM\u0027, ip: \u0027192.168.0.103\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.10\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.124, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\\Users\\ARCHAN~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:55285}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 08947256cceae689be1efe56fdebb7bd\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)\r\n\tat applicationHooks.ApplicationHooks.addScreenshot(ApplicationHooks.java:65)\r\n",
+                  "duration": 21940800,
+                  "status": "failed"
+                },
+                "match": {
+                  "location": "applicationHooks.ApplicationHooks.addScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "user enter the credentail for login by Username as \"amahadevaswamy@qwinix.io\" and Password as \"Parinith@0604\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"amahadevaswamy@qwinix.io\"",
+                  "offset": 51
+                },
+                {
+                  "val": "\"Parinith@0604\"",
+                  "offset": 94
+                }
+              ],
+              "location": "stepDefination.SearchBoxSteps.user_enter_the_credentail_for_login_by_username_as_and_password_as(java.lang.String,java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "applicationHooks.ApplicationHooks.addScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "user selected \"Walmart\" option",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Walmart\"",
+                  "offset": 14
+                }
+              ],
+              "location": "stepDefination.SearchBoxSteps.user_selected_option(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1003900,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "applicationHooks.ApplicationHooks.addScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 991400,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "user click on search box and enter \"1410\" keyword",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1410\"",
+                  "offset": 35
+                }
+              ],
+              "location": "stepDefination.SearchBoxSteps.user_click_on_search_box_and_enter_keyword(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "applicationHooks.ApplicationHooks.addScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-29T07:44:36.465Z",
+        "before": [
+          {
+            "result": {
+              "duration": 480716700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "applicationHooks.ApplicationHooks.getProperty()"
+            }
+          },
+          {
+            "result": {
+              "duration": 2121216500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "applicationHooks.ApplicationHooks.lunchBrowser()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "Verify the store dashboard page",
+        "description": "",
+        "id": "verify-the-store-dashboard-page;verify-the-store-dashboard-page",
+        "after": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d91.0.4472.124)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-VFTDAVM\u0027, ip: \u0027192.168.0.103\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.10\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.124, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\\Users\\ARCHAN~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:55285}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 08947256cceae689be1efe56fdebb7bd\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)\r\n\tat applicationHooks.ApplicationHooks.teardown(ApplicationHooks.java:55)\r\n",
+              "duration": 4986600,
+              "status": "failed"
+            },
+            "match": {
+              "location": "applicationHooks.ApplicationHooks.teardown(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 606073300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "applicationHooks.ApplicationHooks.quitBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "user on store dashboard",
+            "match": {
+              "location": "stepDefination.StoreDashboard.user_on_store_dashboard()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "applicationHooks.ApplicationHooks.addScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 996400,
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "user get the option",
+            "match": {
+              "location": "stepDefination.StoreDashboard.user_get_the(io.cucumber.datatable.DataTable)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 998800,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "applicationHooks.ApplicationHooks.addScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "Store Hours"
+                ]
+              },
+              {
+                "cells": [
+                  "Store Details"
+                ]
+              },
+              {
+                "cells": [
+                  "Smart Screen Information"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "verify for \"Store Hours\" link",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Store Hours\"",
+                  "offset": 11
+                }
+              ],
+              "location": "stepDefination.StoreDashboard.verify_for_link(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "applicationHooks.ApplicationHooks.addScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 997900,
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "verify for \"Store Details\" link",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Store Details\"",
+                  "offset": 11
+                }
+              ],
+              "location": "stepDefination.StoreDashboard.verify_for_link(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "applicationHooks.ApplicationHooks.addScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "verify for \"Smart Screen Information\" link",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Smart Screen Information\"",
+                  "offset": 11
+                }
+              ],
+              "location": "stepDefination.StoreDashboard.verify_for_link(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 999000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "applicationHooks.ApplicationHooks.addScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@StoreDashboard"
+          }
+        ]
+      }
+    ],
+    "name": "Verify the store dashboard page",
+    "description": "  I want to use this template for Verify the store dashboard page",
+    "id": "verify-the-store-dashboard-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/com/features/StoreDashboard.feature",
+    "tags": [
+      {
+        "name": "@StoreDashboard",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
